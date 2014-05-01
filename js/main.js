@@ -1,3 +1,5 @@
+"use strict";
+
 var width = 320;
 var height = 240;
 var tileWidth = 16;
