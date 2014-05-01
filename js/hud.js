@@ -1,8 +1,8 @@
-function HUD(game) {
-}
+"use strict";
 
-HUD.prototype.preload = function() {
-}
+function HUD(game) {}
 
-HUD.prototype.create = function() {
-}
+HUD.prototype = {
+    preload: function () {},
+    create: function () {}
+};
