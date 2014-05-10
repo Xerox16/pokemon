@@ -11,8 +11,8 @@
 }
 
 .jumbotron {
-    height: 500px;
-    background-image: url('http://goo.gl/04j7Nn');
+    height: 1200px;
+    background-image: url('http://pokebeach.com/news/0513/xy/kalos-region.jpg');
 }
 
 .jumbotron .container {
@@ -34,6 +34,14 @@
     color: #fff;
 }
 
+#canvas {
+    margin-top: 40px;
+    background-color: #fff;
+    width: 1000px;
+    height: 600px;
+    padding: 100px;
+}
+
 .disclaimer {
   background-color: #f7f7f7;
 }
@@ -46,4 +54,10 @@
 
 .disclaimer a {
   color: #00b0ff;
+}
+
+.shadow {
+  -moz-box-shadow:    3px 3px 5px 6px #ccc;
+  -webkit-box-shadow: 3px 3px 5px 6px #ccc;
+  box-shadow:         3px 3px 5px 6px #ccc;
 }

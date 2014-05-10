@@ -4,13 +4,14 @@ var width = 320;
 var height = 240;
 var tileWidth = 16;
 var tileHeight = 16;
-var name = "Pokemon";
+var name = "canvas";
 
 var game = new Phaser.Game(width, height, Phaser.AUTO, name, {
     preload: preload,
     create: create,
     update: update
 });
+
 
 var player = null;
 var level = null;
